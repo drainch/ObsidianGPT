@@ -48,3 +48,29 @@ To upgrade, simply run `./upgrade.sh` in the root of your project. This will pul
 
 ## How to use:
 Pin the GPT or at least use it once directly to make it accessible via @mentions. Then in your next interesting ChatGPT conversation, just type: `@ObsidianGPT summarize the key points of this conversations and add it to my XYZ note` 
+
+## Setting up and running the iOS app
+
+To set up and run the iOS app, follow these steps:
+
+1. Clone the repository:
+   ```
+   git clone https://github.com/kon-foo/ObsidianGPT.git
+   cd ObsidianGPT
+   ```
+
+2. Open the Xcode project:
+   ```
+   open ios/ObsidianGPT.xcodeproj
+   ```
+
+3. Configure the API URL and API key:
+   - Open `ViewController.swift` in Xcode.
+   - Replace `https://example.com/api` with your actual backend API URL.
+   - Replace `your-api-key` with your actual API key.
+
+4. Build and run the app:
+   - Select your target device or simulator in Xcode.
+   - Click the "Run" button to build and run the app on your selected device or simulator.
+
+The iOS app will allow you to interact with the existing backend API, fetch notes, and display them in the app.
